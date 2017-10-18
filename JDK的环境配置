@@ -1,0 +1,6 @@
+JDK默认安装成功后，会在系统目录下出现两个文件夹，一个代表jdk，一个代表jre。
+为了配置JDK的系统变量环境，我们需要设置三个系统变量，分别是JAVA_HOME，Path和CLASSPATH。下面是这三个变量的设置防范。
+JAVA_HOME   先设置这个系统变量名称，变量值为JDK在你电脑上的安装路径：C:\Program Files\Java\jdk1.8.0_20。创建好后则可以利用%JAVA_HOME%作为JDK安装目录的统一引用路径。
+Path        PATH属性已存在，可直接编辑，在原来变量后追加：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin 。
+CLASSPATH   设置系统变量名为：CLASSPATH  变量值为：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar 。注意变量值字符串前面有一个"."表示当前目录，设置CLASSPATH 的目的，在于告诉Java执行环境，在哪些目录下可以找到您所要执行的Java程序所需要的类或者包。
+这样JDK的环境就配置好了。
