@@ -1,6 +1,14 @@
-        Android模拟器报"Failed To Allocate memory 8"错误的解决办法   
+        1.Android模拟器报"Failed To Allocate memory 8"错误的解决办法
         http://blog.csdn.net/chszs/article/details/8249913
-        jdk+esclipe+sdk+adt插件
+        
+        2.Q：jdk+esclipe+sdk+adt插件
         esclipe+sdk+adt插件现在好多绑定的安装包
         在sdk过程中还是比较吃力，虽然修改了host文件但是还是解决不了问题，现在google修改了host也是不容易打开，后来通过自由门一个软件翻墙解决了问题
+        
+        3.Q: 在网上搜的蓝牙收发代码，出现乱码
+        https://jingyan.baidu.com/article/870c6fc325a691b03fe4beac.html
+        
+        
+        
+        
         
