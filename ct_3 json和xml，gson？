@@ -1,0 +1,31 @@
+json和xml，都是一种数据的承载形式，主要用json，主要体现在网络客户端和服务器之间的数据传递。
+gson是google提供的json解析库
+
+json实例说明：
+用json_encode()函数对数组进行JSON编码。
+<?php
+$arr = array ('a'=>1,'b'=>2,'c'=>3,'d'=>4,'e'=>5);
+echojson_encode($arr);
+?>
+以上例程会输出:
+{"a":1,"b":2,"c":3,"d":4,"e":5}
+
+xml实例说明：
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Copyright w3school.com.cn -->
+<note>
+<to>George</to>
+<from>John</from>
+<heading>Reminder</heading>
+<body>Don't forget the meeting!</body>
+</note>
+
+
+gson：转换成列表类型：
+List<Person> ps = gson.fromJson(str, new TypeToken<List<Person>>(){}.getType());
+for(int i =0; i < ps.size() ; i++)
+{
+Person p = ps.get(i);
+System.out.println(p.toString());
+}
+使用了TypeToken，它是gson提供的数据类型转换器，可以支持各种数据集合类型转换。
