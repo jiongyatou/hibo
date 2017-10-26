@@ -1,0 +1,10 @@
+1，Socket编程：
+使用socket套接字，实现几个机器之间的通信，一般使用C/S结构。
+以TCP/IP为例：首先建立一个服务器。步骤如下：
+  socket（）创建一个socket，
+  bind（）绑定socket到一个端口
+  listen（）监听端口
+  accept（）等待客户端的连接
+ 客户端程序：
+  socket（）创建一个socket，可以绑定也可以不绑定。
+  connet（）连接到服务器。
