@@ -1,0 +1,1 @@
+在Eclipse 中新建一个android项目，基本流程就是：新建项目，选择android project，然后输入package名，应用名，activity名，选择android api版本。
