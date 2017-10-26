@@ -1,0 +1,28 @@
+
+1.src：存放所有的搜索*.java源程序。
+
+
+2.gen：为ADT插件自动生成的代码文件保存路径，里面的R.java将保存所有的资源ID。
+
+
+3.assets：可以存放项目一些较大的资源文件，例如：图片、音乐、字体等。
+
+
+4.res：可以存放项目中所有的资源文件，例如：图片（*.png、*.jpg）、文本等。
+
+
+5.res/drawable-hdpi：保存高分辨率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
+
+
+6.res/drawable-ldpi：保存低分辩率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
+
+
+7.res/drawable-mdpi：保存中等分辨率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
+
+
+8.res/layout：存放所有的布局文件，主要是用于排列不同的显示组件，在Android程序中要读取此配置。
+
+
+9.res/values：   存放一些资源文件的信息，用于读取文本资源，在本文件夹之中有一些约定的文件名称：
+ · arrays.xml：定义数组数据；（在个这个xml命名的时候可以随便起名，因为最后用的时候只是用到写在这个xml文件中的array的名字）
+
