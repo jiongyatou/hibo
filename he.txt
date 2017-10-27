@@ -1,2 +1,1 @@
-cantool app problem
-hello 
+print hello world
