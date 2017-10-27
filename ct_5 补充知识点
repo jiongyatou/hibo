@@ -14,3 +14,8 @@ C---controller。用于结构get或者post请求，处理业务逻辑，与model
 客户端程序:
   socket()创建一个socket，可以绑定也可以不绑定
   connect()连接到服务器端。
+
+
+
+
+
