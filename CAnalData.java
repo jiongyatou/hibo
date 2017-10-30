@@ -1,6 +1,6 @@
 ﻿package com.controller;（安装包控制器）
 
-import java.util.ArrayList;（导入一个现成的类这样就可以使用那个类的方法了，ArrayList<>这个是很常用的泛型集合，你可以放你定义的东西）
+import java.util.ArrayList;（导入一个现成的类这样就可以使用那个类的方法了，ArrayList<>这个是很常用的泛型集合
 
 import com.model.MAnalData;（导入MAnalData包）
 
