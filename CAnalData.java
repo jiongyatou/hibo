@@ -31,14 +31,14 @@ class Hahaha2{}，Hello就是你的主类。类名和文件名相同）
 				temp+=""+datas[i];（定义一个临时变量）
 			}
 			setDLC(Integer.parseInt(datas[4]+""));（这是一个泛型的写法，表示 这个集合中只能保存 integer 类型的对象，其他对象无法保存。parseInt(String s) 是Integer类型的一个静态方法.该方法的用途是将字符串参数作为有符号的十进制整数进行解析。）
-			size=getDLC();
+			size=getDLC();（获取长度）
 			
 			for(int i=0;i<size;i++){
 				int index=0;（index只是自己设置的一个变量）
 				char[] data=new char[2];
 				for(int j=i*2+5;j<(i*2+5)+2;j++){
 					data[index]=datas[j];
-					index++;
+					index++;（计算物理值）
 				}
 				list.add(data);（List集合里的add方法. 表示向集合里添加元素）
 				setDATA(list);（应该是设置一个队列的数据）
