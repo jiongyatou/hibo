@@ -1,6 +1,6 @@
-安装JDK,根据自己的电脑系统，下载相应的版本即可，地址为http://www.oracle.com/technetwork/java/javase/downloads/index.html；
+安装JDK,根据自己的电脑系统，下载相应的版本即可，下载地址为http://www.oracle.com/technetwork/java/javase/downloads/index.html；
 配置Windows上JDK的环境变量；
-JAVA_HOME   先设置这个系统变量名称，变量值为JDK在你电脑上的安装路径：C:\Program Files\Java\jdk1.8.0_20。
+JAVA_HOME   先设置这个系统变量名称，变量值为JDK在你电脑上面的安装路径：C:\Program Files\Java\jdk1.8.0_20。
             创建好后则可以利用%JAVA_HOME%作为JDK安装目录的统一引用路径；
 Path        PATH属性已存在，可以直接进行编辑，在原来变量后追加：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin ；
 CLASSPATH   设置系统变量名为：CLASSPATH  变量值为：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar 。
