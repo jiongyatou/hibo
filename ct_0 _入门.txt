@@ -8,7 +8,7 @@ android四大组件分别为activity、service、content provider、broadcast re
 
 1、activity
 
-（1）一个Activity通常就是一个单独的屏幕（窗口）。
+（1）一个Activity通常就是一个单独的屏幕。
 
 （2）Activity之间通过Intent进行通信。
 
