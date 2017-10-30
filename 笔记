@@ -14,10 +14,10 @@
 5.res/drawable-hdpi：用于保存高分辨率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
 
 
-6.res/drawable-ldpi：用于保存低分辩率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
+6.res/drawable-ldpi：保存低分辩率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
 
 
-7.res/drawable-mdpi：用于保存中等分辨率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
+7.res/drawable-mdpi：保存中等分辨率图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。
 
 
 8.res/layout：存放所有的布局文件，主要是用于排列不同的显示组件，在Android程序中要读取此配置。
