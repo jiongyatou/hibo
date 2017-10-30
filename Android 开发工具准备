@@ -1,5 +1,5 @@
 四个方面：
-Eclipse      由于Eclipse是最强的的JAVA开发工具，安装Android开发差件后可以方便快速的开发调试Android程序。
+Eclipse      由于Eclipse是最强的的JAVA开发工具，在安装Android开发插件之后就可以方便快速的开发调试Android程序。
 Android SDK  Android开发工具包，包括核心的API.ADV等。
 Java SDK     Java安装包，包括JDK和JRE。
-其他         FireWorks,用于编辑png图片，Android中主要的图片格式。
+其他         FireWorks,用于编辑png格式的图片，Android中主要的图片格式。
