@@ -1,3 +1,19 @@
 一本纸质书    有本入门的纸质书，对新生有帮助。比如【深入浅出的Google Android】
 API文档      Java API,Android API.重要的查询手册。
 工具查询书
+推荐资料：
+1.Dev Guide（http://developer.android.com/guide/index.html，最好是安装SDK后本地阅读文档，否则需要翻墙麻烦），这是最全面的也是最权威的入门学习资料，优先阅读Android Basics和Framework Topics章节，一定要耐得住寂寞。
+2.Resouces（http://developer.android.com/resources/index.html，建议阅读SDK本地文档，同上），优先阅读Articles和Topics，这些是进阶话题，对深入开发很有帮助。
+3.StackOverFlow的Android Tag（http://stackoverflow.com/questions/tagged/android），这是一个编程的问答网站，从某种意义上和“知乎”很像，上面的同学都非常认真，很多问题也很有价值，没事可以当八卦看看，当然了如果你愿意你几乎都可以搜索到你想要的答案，这个网站可能会陪伴你度过你的程序猿生涯哦。
+4.订阅Android Developers Blog.
+书籍类：
+5.Android开发精要 
+6.Android应用性能优化
+7.精彩绝伦的Android UI设计
+8.Android应用UI设计模式 
+9.Effective Java 第二版 中文版/Sun公司核心技术丛书 
+10.Java网络编程(中文版 第三版)(O＇Reilly Java系列) 
+11.Java并发编程实战 另有一本Android安全方面的实。（转自知乎）
+
+
+
