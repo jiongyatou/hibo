@@ -38,7 +38,7 @@ class Hahaha2{}，Hello就是你的主类。类名和文件名相同）
 				char[] data=new char[2];
 				for(int j=i*2+5;j<(i*2+5)+2;j++){
 					data[index]=datas[j];
-					index++;（计算物理值）
+					index++;（计算其物理值）
 				}
 				list.add(data);（List集合里的add方法. 表示向集合里添加元素）
 				setDATA(list);（应该是设置一个队列的数据）
@@ -46,7 +46,7 @@ class Hahaha2{}，Hello就是你的主类。类名和文件名相同）
 			break;
 		//	扩展位;
 		case 'T':
-			for(int i=1;i<9;i++){
+			for(int i=1;i<9;i++){//扩展位后面有8个位，i<9
 				temp+=""+datas[i];
 			}
 			setDLC(Integer.parseInt(datas[9]+""));
