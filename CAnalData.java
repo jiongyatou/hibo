@@ -68,3 +68,5 @@ class Hahaha2{}，Hello就是你的主类。类名和文件名相同）
 		setID(temp);
 	}
 }
+
+
