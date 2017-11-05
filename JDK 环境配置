@@ -4,7 +4,7 @@ JAVA_HOME   先设置这个系统变量名称，变量值是JDK在你电脑上�
             创建好后就可以利用%JAVA_HOME%作为JDK安装目录的统一引用路径；
 Path        PATH的属性已存在，可以直接进行编辑，在原来的变量后追加：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin ；
 CLASSPATH   设置系统变量名为：CLASSPATH  变量值为：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar 。
-            注意变量值字符串前面有一个"."表示的是当前目录，设置CLASSPATH 的目的，在于告诉我们Java执行环境，并且在哪些目录下可以找
+            注意变量值字符串前面有一个"."表示的是当前目录，设置CLASSPATH 的目的，是为了告诉我们Java执行环境，并且在哪些目录下可以找
             到您所要执行的Java程序所需要的类或包；
 
 
